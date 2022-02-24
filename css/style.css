@@ -15,7 +15,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
 /* Header */
 header{
     position: relative;
@@ -27,18 +31,44 @@ header{
     position: fixed;
 }
 .nav-left{
+    float: left;
     line-height: 100px;
 }
-nav #logo-left, nav #text-left{
+nav #logo, nav #text-left{
     float: left;
 }
-#logo-left a img{
+#logo a img{
     vertical-align: middle;
 }
 nav #text-left li{
     display: inline-block;
     list-style-type: none;
 }
-#logo-left, #text-left li{
-    padding: 0 20px;
+#logo, #text-left li{
+    padding: 0 30px;
+}
+.nav-right{
+    float: right;
+    line-height: 100px;
+}
+nav #button-right, nav #text-right{
+    float: right;
+}
+nav #text-right li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav #text-right li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#text-right li, #button-right{
+    padding: 0 30px;
+}
+#button-right a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 30px;
 }
