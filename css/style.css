@@ -1,3 +1,4 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
@@ -12,5 +13,6 @@
     clear: both;
 }
 body{
-    background-color: red;
+    font-family: 'Open Sans', sans-serif;
 }
+/* Header */
