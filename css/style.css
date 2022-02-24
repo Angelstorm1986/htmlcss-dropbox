@@ -24,23 +24,80 @@ li a{
     width: 80%;
     margin: 0 auto;
 }
-.use{
+.user{
     border: 1px solid lightgrey;
     font-size: 30px;
-    padding: 1px 197px;
+    padding: 1px 136px;
 }
-.plan h4{
+.user-team{
+    border: 1px solid lightgrey;
+    font-size: 30px;
+    padding: 1px 150px;
+}
+.user-part{
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding: 30px 30px;
+}
+.user-part h4{
     font-size: 40px;
 }
-.plan .or{
+.user-part .euro{
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.user-part .time{
+    color: lightgrey;
+    padding-top: 5px;
+}
+.user-part .feature{
+    padding-top: 80px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.user-part .button-part{
+    text-align: center;
+    padding-top: 80px;
+}
+.user-part .button-part a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 75px;
+}
+.buy-option{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.buy-option .or{
     border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
 }
 #buy{
     color: blue;
     font-weight: bold;
 }
-.plan ul li{
+.small-title{
+    font-size: larger;
+    font-weight: bold;
+}
+.user-part ul{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+#different{
+    padding-bottom: 120px;
+}
+.option{
     list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+    line-height: 30px;
+}
+.option:before{
+    content: '✓';
+    color: green;
 }
 
 /* Header */
@@ -160,6 +217,11 @@ h3{
     padding-right: 20px;
 }
 .plan{
-    width: 33%;
+    float:left;
+    width: 30%;
     text-align: center;
+}
+#plan-center{
+    margin-left: 5%;
+    margin-right: 5%;
 }
