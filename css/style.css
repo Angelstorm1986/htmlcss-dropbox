@@ -20,6 +20,10 @@ li a{
     text-decoration: none;
     font-weight: bold;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 /* Header */
 header{
     position: relative;
@@ -27,12 +31,12 @@ header{
 .nav-bar{
     background-color: white;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     position: fixed;
 }
 .nav-left{
     float: left;
-    line-height: 100px;
+    line-height: 10vh;
 }
 nav #logo, nav #text-left{
     float: left;
@@ -49,7 +53,7 @@ nav #text-left li{
 }
 .nav-right{
     float: right;
-    line-height: 100px;
+    line-height: 10vh;
 }
 nav #button-right, nav #text-right{
     float: right;
@@ -71,4 +75,50 @@ nav #text-right li a{
     background-color: blue;
     text-decoration: none;
     padding: 10px 30px;
+}
+.jumbotron{
+    height: 80vh;
+    background-color: #b4d0e7;
+    padding-top: 10vh;
+}
+.title{
+    font-size: 100px;
+}
+#jumbo-text, #jumbo-image{
+    float: left;
+}
+aside #jumbo-text{
+    width: 40%;
+}
+aside #jumbo-text p{
+    padding: 50px 50px 0;
+}
+aside #jumbo-image{
+    position: relative;
+    width: 60%;
+    padding-top: 40px;
+}
+#jumbo-image img{
+    height: 700px;
+    position: absolute;
+    top: 45%;
+}
+#button{
+    padding: 50px 50px 18px;
+}
+#button a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+#jumbo-text span{
+    font-size: smaller;
+    font-weight: bold;
+    padding: 18px 50px;
+}
+#jumbo-text a i{
+    color: black;
+    font-size: 50px;
+    margin: 60px 50px 0;
 }
