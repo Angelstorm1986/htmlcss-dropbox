@@ -24,6 +24,25 @@ li a{
     width: 80%;
     margin: 0 auto;
 }
+.use{
+    border: 1px solid lightgrey;
+    font-size: 30px;
+    padding: 1px 197px;
+}
+.plan h4{
+    font-size: 40px;
+}
+.plan .or{
+    border-bottom: 1px solid lightgrey;
+}
+#buy{
+    color: blue;
+    font-weight: bold;
+}
+.plan ul li{
+    list-style-type: none;
+}
+
 /* Header */
 header{
     position: relative;
@@ -104,10 +123,10 @@ aside #jumbo-image{
     position: absolute;
     top: 45%;
 }
-#button{
+.button{
     padding: 50px 50px 18px;
 }
-#button a{
+.button a{
     color: white;
     background-color: blue;
     text-decoration: none;
@@ -141,14 +160,6 @@ h3{
     padding-right: 20px;
 }
 .plan{
-    width: calc((100% / 3) - 40px);
-    display: inline-block;
-}
-#center-plan{
-    margin-left: 20px;
-    margin-right: 20px;    
-}
-.plan{
-    margin: 20px 0;
-    height: 200px;
+    width: 33%;
+    text-align: center;
 }
