@@ -27,12 +27,12 @@ li a{
 .user{
     border: 1px solid lightgrey;
     font-size: 30px;
-    padding: 1px 136px;
+    padding: 1px 174px;
 }
 .user-team{
     border: 1px solid lightgrey;
     font-size: 30px;
-    padding: 1px 150px;
+    padding: 1px 188px;
 }
 .user-part{
     border: 1px solid lightgrey;
@@ -64,7 +64,7 @@ li a{
     color: white;
     background-color: blue;
     text-decoration: none;
-    padding: 10px 75px;
+    padding: 10px 115px;
 }
 .buy-option{
     padding-top: 50px;
@@ -87,7 +87,7 @@ li a{
     padding-bottom: 60px;
 }
 #different{
-    padding-bottom: 120px;
+    padding-bottom: 95px;
 }
 .option{
     list-style-type: none;
