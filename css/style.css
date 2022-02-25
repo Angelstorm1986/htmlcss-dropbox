@@ -12,6 +12,8 @@
     display: table;
     clear: both;
 }
+
+/* General */
 body{
     font-family: 'Open Sans', sans-serif;
     min-width: 1500px;
@@ -24,6 +26,17 @@ li a{
 .container{
     width: 80%;
     margin: 0 auto;
+}
+h2{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+h3{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+h4{
+    font-size: 40px;
 }
 
 /* Header */
@@ -146,10 +159,6 @@ aside #jumbo-image{
     padding-top: 300px;
     padding-bottom: 60px;
 }
-h3{
-    font-size: 60px;
-    padding-bottom: 20px;
-}
 .billing{
     font-weight: bold;
     padding-right: 20px;
@@ -188,7 +197,7 @@ h3{
     text-align: left;
     padding: 30px;
 }
-.user-part h4{
+h4{
     font-size: 40px;
 }
 .user-part .euro{
@@ -288,4 +297,17 @@ h3{
 }
 .text-left h3{
     font-size: 40px;
+}
+.operations{
+    min-width: 1500px;
+}
+.operation-image{
+    width: calc((100% / 3) - 10px);
+    margin-top: 1%;
+    padding: 20px;
+    display: inline-block;
+    object-fit: cover;
+}
+.image img{
+    width: 100%;
 }
