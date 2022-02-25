@@ -222,8 +222,9 @@ h4{
     color: white;
     background-color: blue;
     text-decoration: none;
-    padding: 10px 100px;
+    padding: 10px 0;
     width: 100%;
+    display: inline-block;
 }
 .button-aside{
     text-align: right;
@@ -310,4 +311,11 @@ h4{
 }
 .image img{
     width: 100%;
+}
+.team{
+    padding-top: 300px;
+}
+.team a{
+    color: blue;
+    font-weight: bold;
 }
