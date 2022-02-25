@@ -314,8 +314,36 @@ h4{
 }
 .team{
     padding-top: 300px;
+    padding-bottom: 50px;
 }
 .team a{
     color: blue;
     font-weight: bold;
+    
+}
+.company{
+    width: 100%;
+    background-color: #b4d0e7;
+    height: 500px;
+}
+.company-title, .button-company{
+    float: left;
+    line-height: 70px;
+}
+.company-title{
+    width: 60%;
+    color: #560404;
+    padding-top: 200px;
+}
+.button-company{
+    width: 40%;
+    padding-top: 200px;
+    text-align: center;
+}
+.button-company a{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 60px;
 }
