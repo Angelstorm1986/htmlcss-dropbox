@@ -261,3 +261,31 @@ h3{
     content: '✓';
     color: green;
 }
+.partner{
+    min-height: 1000px;
+    min-width: 1500px;
+}
+.image-left div img{
+    float: left;
+    width: 60%;
+    height: 900px;
+    padding-top: 200px;
+}
+.text-left .button{
+    padding: 60px 0 0;
+}
+.text-left .button a{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.text-left{
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.text-left h3{
+    font-size: 40px;
+}
