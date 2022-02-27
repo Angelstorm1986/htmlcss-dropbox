@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .debug{
-    border: 1px solid black;
+    border: 1px solid red;
 }
 .clearfix::after{
     content: '';
@@ -377,4 +377,42 @@ aside #jumbo-image{
     text-align: center;
     font-size: 20px;
     vertical-align: middle;
+}
+.foot{
+    background-color: black;
+}
+.foot-help{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    min-width: 2100px;
+}
+.foot-deco{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding: 40px 120px 0;
+    vertical-align: top;
+}
+.foot-deco h4{
+    font-size: 30px;
+}
+.foot-deco ul{
+    list-style-type: none;
+}
+.foot-lang{
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    border-top: 1px solid lightgrey;
+}
+.foot-lang p{
+    display: inline-block;
+    padding: 0 5px;
+}
+.foot-lang, .fa-earth-americas, .fa-caret-up{
+    color: white;
 }
