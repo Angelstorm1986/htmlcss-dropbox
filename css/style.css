@@ -16,7 +16,7 @@
 /* General */
 body{
     font-family: 'Open Sans', sans-serif;
-    min-width: 1500px;
+    min-width: 2100px;
 }
 li a{
     color: black;
@@ -169,7 +169,6 @@ aside #jumbo-image{
 /* Titolo */
 .business{
     min-height: 2000px;
-    min-width: 1200px;
 }
 .top-business{
     padding-top: 300px;
@@ -299,7 +298,6 @@ aside #jumbo-image{
 /* Partner */
 .partner{
     min-height: 1000px;
-    min-width: 1500px;
 }
 .image-left div img{
     float: left;
@@ -324,9 +322,6 @@ aside #jumbo-image{
 }
 .text-left h3{
     font-size: 40px;
-}
-.operations{
-    min-width: 1500px;
 }
 .operation-image{
     width: calc((100% / 3) - 10px);
@@ -522,9 +517,7 @@ aside #jumbo-image{
 .quest-title h3{
     font-size: 40px;
 }
-.quest-title, .quest-section{
-    min-width: 1500px;
-}
+
 .quest-section{
     width: 100%;
     font-weight: bolder;
@@ -554,7 +547,6 @@ aside #jumbo-image{
     width: 100%;
     height: 400px;
     text-align: center;
-    min-width: 2100px;
 }
 .foot-deco{
     display: inline-block;
